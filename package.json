@@ -4,7 +4,8 @@
   "description": "React/ui library for chefMaster project",
   "main": "dist/index.js",
   "scripts": {
-    "build": "webpack --config webpack.config.js"
+    "build": "webpack --config webpack.config.js",
+    "storybook": "start-storybook -p 6006"
   },
   "repository": {
     "type": "git",
@@ -26,6 +27,13 @@
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
+    "@storybook/addon-actions": "^6.5.16",
+    "@storybook/addon-essentials": "^6.5.16",
+    "@storybook/addon-interactions": "^6.5.16",
+    "@storybook/addon-links": "^6.5.16",
+    "@storybook/builder-webpack5": "^6.5.16",
+    "@storybook/manager-webpack5": "^6.5.16",
+    "@storybook/react": "^6.5.16",
     "@types/react": "^18.0.28",
     "css-loader": "^6.7.3",
     "css-minimizer-webpack-plugin": "^4.2.2",
