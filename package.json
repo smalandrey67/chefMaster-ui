@@ -1,0 +1,22 @@
+{
+  "name": "chefmaster-ui",
+  "version": "1.0.0",
+  "description": "React/ui library for chefMaster project",
+  "main": "dist/index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/smalandrey67/chefMaster-ui.git"
+  },
+  "keywords": [
+    "components",
+    "ui-library",
+    "react"
+  ],
+  "author": "mushroom-dev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/smalandrey67/chefMaster-ui/issues"
+  },
+  "homepage": "https://github.com/smalandrey67/chefMaster-ui#readme"
+}
