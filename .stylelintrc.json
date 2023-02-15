@@ -1,9 +1,17 @@
 {
     "extends": [
-        "stylelint-config-standard",
-        "stylelint-order-config-standard"
+        "stylelint-config-recommended",
+        "stylelint-config-recess-order"
     ],
     "plugins": [
         "stylelint-order"
-    ]
+    ],
+    "rules": {
+        "order/order": [
+            "custom-properties",
+            "declarations"
+        ],
+        "color-hex-length": "long",
+        "declaration-no-important": true
+    }
 }
