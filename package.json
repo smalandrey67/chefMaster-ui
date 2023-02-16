@@ -1,8 +1,11 @@
 {
   "name": "chefmaster-ui",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "React/ui library for chefMaster project",
   "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "build": "webpack --config webpack.config.js",
     "storybook": "start-storybook -p 6006",
