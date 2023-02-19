@@ -1,0 +1,43 @@
+@import url("../../ui-kit.css");
+
+.button__reset {
+	background: transparent;
+	border: none;
+}
+
+.button {
+	display: inline-grid;
+	grid-auto-flow: column;
+	column-gap: 5px;
+	align-items: center;
+	justify-content: center;
+	min-height: 25px;
+	padding: 0 30px;
+	font-family: inherit;
+	font-weight: 400;
+	cursor: pointer;
+	background: var(--neon-10);
+	border-radius: var(--rounded);
+	transition: background-color 0.5s ease;
+}
+
+.button:hover {
+	background: var(--neon-20);
+}
+
+.button__icon-only {
+	min-height: 30px;
+	padding: 0 7px;
+}
+
+.button__icon-withContent {
+	padding: 0 15px 0 5px;
+}
+
+.button__icon {
+	object-fit: contain;
+}
+
+.button__fullWidth {
+	width: 100%;
+}

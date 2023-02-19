@@ -5,10 +5,11 @@
 	--dark-30: #323232;
 	--light-10: #ededed;
 	--light-20: #c0c0c0;
-	--neon: #ffc30e;
+	--neon-10: #ffc30e;
+	--neon-20: #edb200;
 	--scarlet: #fe3c3c;
 
 	/* radius */
 	--round: 50%;
-	--rounded: 5%;
+	--rounded: 5px;
 }
