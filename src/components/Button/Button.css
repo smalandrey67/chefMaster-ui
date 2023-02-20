@@ -11,8 +11,8 @@
 	column-gap: 5px;
 	align-items: center;
 	justify-content: center;
-	min-height: 25px;
-	padding: 0 30px;
+	min-height: 35px;
+	padding: 0 15px;
 	font-family: inherit;
 	font-weight: 400;
 	cursor: pointer;
@@ -26,8 +26,7 @@
 }
 
 .button__icon-only {
-	min-height: 30px;
-	padding: 0 7px;
+	padding: 8px;
 }
 
 .button__icon-withContent {

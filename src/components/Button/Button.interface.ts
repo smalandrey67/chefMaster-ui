@@ -1,8 +1,10 @@
 import type { DetailedHTMLProps, ButtonHTMLAttributes } from "react";
-import type { IconType } from "../../types";
+import { IconType } from "react-icons";
 
 export interface ButtonProps extends DetailedHTMLProps<ButtonHTMLAttributes<HTMLButtonElement>, HTMLButtonElement> {
 	children?: string;
-	icon?: IconType;
+	Icon?: IconType;
+	iconSize?: number | string;
+	iconColor?: string;
 	fullWidth?: boolean;
 }
