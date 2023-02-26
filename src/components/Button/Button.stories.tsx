@@ -1,7 +1,9 @@
 import React from "react";
 import type { ComponentStory, ComponentMeta } from "@storybook/react";
 
+import { StoriesWrapper } from "../../containers/StoriesWrapper/StoriesWrapper";
 import { Button } from "./Button";
+
 import { FiArrowLeft } from "react-icons/fi";
 
 export default {
@@ -15,7 +17,11 @@ export default {
 	}
 } as ComponentMeta<typeof Button>;
 
-const Template: ComponentStory<typeof Button> = (args) => <Button {...args} />;
+const Template: ComponentStory<typeof Button> = (args) => (
+	<StoriesWrapper bg="dark-30">
+		<Button {...args} />
+	</StoriesWrapper>
+);
 
 export const Simple = Template.bind({});
 Simple.storyName = "Button Simple";

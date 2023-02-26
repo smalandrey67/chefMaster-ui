@@ -1,2 +1,4 @@
 import { Button } from "./components/Button/Button";
-export { Button };
+import { Title } from "./components/Title/Title";
+
+export { Button, Title };

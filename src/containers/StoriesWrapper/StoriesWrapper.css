@@ -1,0 +1,17 @@
+.stories__wrapper {
+	width: 100vw;
+	height: 100vh;
+	padding: 20px;
+}
+
+.stories__wrapper-dark-10 {
+	background-color: var(--dark-10);
+}
+
+.stories__wrapper-dark-30 {
+	background-color: var(--dark-30);
+}
+
+.stories__wrapper-light {
+	background-color: var(--white);
+}

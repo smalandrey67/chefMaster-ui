@@ -1,0 +1,15 @@
+.title {
+	margin: 0;
+	color: var(--light-10);
+	letter-spacing: 0.5px;
+}
+
+.title__small {
+	font-size: 14px;
+	font-weight: 600;
+}
+
+.title__big {
+	font-size: 25px;
+	font-weight: 800;
+}
