@@ -10,7 +10,7 @@ export default {
 	title: "UI-Components/Button",
 	component: Button,
 	args: {
-		fullWidth: false,
+		isFullWidth: false,
 		Icon: FiArrowLeft,
 		iconSize: 18,
 		iconColor: "#000000"
@@ -23,19 +23,15 @@ const Template: ComponentStory<typeof Button> = (args) => (
 	</StoriesWrapper>
 );
 
-export const Simple = Template.bind({});
-Simple.storyName = "Button Simple";
-Simple.args = {
-	Icon: "",
-	children: "Simple"
+export const ButtonDefault = Template.bind({});
+ButtonDefault.storyName = "Button Default";
+ButtonDefault.args = {
+	Icon: null,
+	children: "Default"
 };
 
-export const WithIcon = Template.bind({});
-WithIcon.storyName = "Button Simple With Icon";
-WithIcon.args = {
+export const ButtonWithIcon = Template.bind({});
+ButtonWithIcon.storyName = "Button With Icon";
+ButtonWithIcon.args = {
 	children: "With Icon"
 };
-
-export const JustIcon = Template.bind({});
-JustIcon.storyName = "Button Only With Icon";
-JustIcon.args = {};

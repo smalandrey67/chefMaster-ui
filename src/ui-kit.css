@@ -14,4 +14,8 @@
 	--round: 50%;
 	--rounded-10: 20px;
 	--rounded-20: 5px;
+
+	/* animates */
+	--scale: 1.05;
+	--transitionTime: 0.5s;
 }

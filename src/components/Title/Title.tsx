@@ -4,7 +4,7 @@ import type { TitleProps } from "./Title.interface";
 
 import "./Title.css";
 
-export function Title({ variant = "small", className, children, ...args }: TitleProps): JSX.Element {
+export function Title({ children, variant = "small", className, ...args }: TitleProps): JSX.Element {
 	const isTitleSmall = variant === "small";
 	const isTitleBig = variant === "big";
 

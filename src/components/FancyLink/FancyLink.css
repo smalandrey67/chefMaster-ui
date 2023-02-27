@@ -1,0 +1,32 @@
+.fancyLink__reset {
+	text-decoration: none;
+}
+
+.fancyLink {
+	display: inline-grid;
+	grid-auto-flow: column;
+	column-gap: 5px;
+	align-items: center;
+	justify-content: center;
+	font-family: inherit;
+	font-weight: 400;
+	color: var(--light-10);
+	cursor: pointer;
+	transition: color var(--transitionTime) ease;
+}
+
+.fancyLink:hover {
+	color: var(--light-20);
+}
+
+.fancyLink__icon-only {
+	padding: 8px;
+	color: var(--dark-10);
+	background-color: var(--neon-10);
+	border-radius: var(--rounded-20);
+	transition: background-color var(--transitionTime) ease;
+}
+
+.fancyLink__icon-only:hover {
+	background-color: var(--neon-20);
+}
