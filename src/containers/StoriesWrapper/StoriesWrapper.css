@@ -1,4 +1,7 @@
 .stories__wrapper {
+	display: flex;
+	align-items: flex-start;
+	justify-content: flex-start;
 	width: 100vw;
 	height: 100vh;
 	padding: 20px;

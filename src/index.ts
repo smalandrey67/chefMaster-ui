@@ -1,5 +1,4 @@
-import { Button } from "./components/Button/Button";
-import { Title } from "./components/Title/Title";
-import { FancyLink } from "./components/FancyLink/FancyLink";
-
-export { Button, Title, FancyLink };
+export { Button } from "./components/Button/Button";
+export { FancyLink } from "./components/FancyLink/FancyLink";
+export { Title } from "./components/Title/Title";
+export { IconMarker } from "./components/IconMarker/IconMarker";

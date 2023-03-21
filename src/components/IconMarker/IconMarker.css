@@ -1,0 +1,11 @@
+.marker {
+	display: flex;
+	flex-direction: column;
+	gap: 5px;
+	align-items: center;
+}
+
+.marker__title {
+	font-size: inherit;
+	color: var(--light-20);
+}
