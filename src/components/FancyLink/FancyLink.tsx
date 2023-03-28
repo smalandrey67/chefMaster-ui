@@ -11,7 +11,7 @@ export function FancyLink({ children, Link, href, Icon, iconSize, iconColor, cla
 	if (!Link) {
 		return (
 			<a
-				className={clsx(`${className} fancyLink__reset fancyLink`, {
+				className={clsx("fancyLink__reset fancyLink", className, {
 					["fancyLink__icon-only"]: isIconOnly
 				})}
 				href={href}
@@ -25,7 +25,7 @@ export function FancyLink({ children, Link, href, Icon, iconSize, iconColor, cla
 
 	return (
 		<Link
-			className={clsx(`${className} fancyLink__reset fancyLink`, {
+			className={clsx("fancyLink__reset fancyLink", className, {
 				["fancyLink__icon-only"]: isIconOnly
 			})}
 			href={href}

@@ -7,4 +7,5 @@ export interface ButtonProps extends DetailedHTMLProps<ButtonHTMLAttributes<HTML
 	iconSize?: number | string;
 	iconColor?: string;
 	isFullWidth?: boolean;
+	className?: string;
 }
