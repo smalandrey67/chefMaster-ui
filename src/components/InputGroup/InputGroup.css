@@ -33,3 +33,9 @@
 .input:focus + .label__name {
 	font-size: 16px;
 }
+
+.input__error {
+	font-size: 11px;
+	color: var(--scarlet);
+	letter-spacing: 1px;
+}

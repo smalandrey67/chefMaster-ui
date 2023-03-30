@@ -5,7 +5,7 @@ import { StoriesWrapper } from "../../containers/StoriesWrapper/StoriesWrapper";
 import { InputGroup } from "./InputGroup";
 
 export default {
-	title: "UI-Components/Input",
+	title: "UI-Components/Inputs",
 	component: InputGroup,
 	args: {
 		labelName: "email:",
@@ -14,9 +14,17 @@ export default {
 	}
 } as ComponentMeta<typeof InputGroup>;
 
-export const Template: ComponentStory<typeof InputGroup> = (args) => (
+const Template: ComponentStory<typeof InputGroup> = (args) => (
 	<StoriesWrapper bg="dark-30">
 		<InputGroup {...args} />
 	</StoriesWrapper>
 );
-Template.storyName = "Input";
+
+export const Input = Template.bind({});
+Input.storyName = "Input Group";
+
+export const InputError = Template.bind({});
+InputError.storyName = "Input Error";
+InputError.args = {
+	error: "error"
+};
