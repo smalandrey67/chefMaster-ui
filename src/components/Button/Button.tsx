@@ -9,7 +9,7 @@ export function Button({ children, Icon, iconSize, iconColor, isFullWidth = fals
 
 	return (
 		<button
-			className={clsx("button__reset button", className, {
+			className={clsx(className, "button__reset button", {
 				["button__icon-withContent"]: isIconWithContent,
 				["button__fullWidth"]: isFullWidth
 			})}

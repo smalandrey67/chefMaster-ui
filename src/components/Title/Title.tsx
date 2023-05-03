@@ -11,13 +11,13 @@ export function Title({ children, variant = "small", className, ...args }: Title
 	return (
 		<>
 			{isTitleSmall && (
-				<h5 className={clsx(`${className} title title__small`)} {...args}>
+				<h5 className={clsx(className, "title title__small")} {...args}>
 					{children}
 				</h5>
 			)}
 
 			{isTitleBig && (
-				<h2 className={clsx(`${className} title title__big`)} {...args}>
+				<h2 className={clsx(className, "title title__big")} {...args}>
 					{children}
 				</h2>
 			)}

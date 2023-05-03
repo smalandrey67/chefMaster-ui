@@ -30,6 +30,10 @@
 	border-radius: var(--rounded-20);
 }
 
+.input:disabled {
+	color: var(--light-20);
+}
+
 .input:focus + .label__name {
 	font-size: 16px;
 }
