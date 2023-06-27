@@ -1,6 +1,6 @@
 {
   "name": "chefmaster-ui",
-  "version": "0.0.13",
+  "version": "0.0.15",
   "description": "React/ui library for chefMaster project",
   "main": "dist/index.js",
   "files": [

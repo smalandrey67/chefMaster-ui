@@ -1,9 +1,9 @@
 import React from "react";
-import type { ComponentStory, ComponentMeta } from "@storybook/react";
 
 import { StoriesWrapper } from "../../containers/StoriesWrapper/StoriesWrapper";
 import { IconMarker } from "./IconMarker";
 
+import type { ComponentStory, ComponentMeta } from "@storybook/react";
 import { AiFillFire } from "react-icons/ai";
 
 export default {

@@ -1,0 +1,61 @@
+.upload {
+	position: relative;
+	width: 120px;
+	height: 120px;
+}
+
+.upload__image {
+	object-fit: cover;
+	width: 100%;
+	height: 100%;
+}
+
+.upload__image-wrapper {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	border-radius: var(--round);
+}
+
+.upload__cover {
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	height: 100%;
+	cursor: pointer;
+	border-radius: var(--round);
+}
+
+@media (hover: hover) {
+	.upload__cover:hover {
+		background: rgba(28, 28, 28, 0.5);
+
+		.upload__cover-plus {
+			opacity: 1;
+		}
+	}
+}
+
+.upload__cover-input {
+	display: none;
+}
+
+.upload__cover-plus {
+	font-size: 25px;
+	color: var(--light-10);
+	opacity: 0;
+}
+
+.upload__validation-error {
+	display: block;
+	margin-top: 5px;
+	font-size: 11px;
+	color: var(--scarlet);
+	text-align: center;
+	letter-spacing: 1px;
+}

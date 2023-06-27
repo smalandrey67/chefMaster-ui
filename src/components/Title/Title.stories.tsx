@@ -1,8 +1,9 @@
 import React from "react";
-import type { ComponentStory, ComponentMeta } from "@storybook/react";
 
 import { StoriesWrapper } from "../../containers/StoriesWrapper/StoriesWrapper";
 import { Title } from "./Title";
+
+import type { ComponentStory, ComponentMeta } from "@storybook/react";
 
 export default {
 	title: "UI-Components/Title",

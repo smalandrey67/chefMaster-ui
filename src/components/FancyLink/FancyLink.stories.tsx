@@ -1,9 +1,9 @@
 import React from "react";
-import type { ComponentStory, ComponentMeta } from "@storybook/react";
 
 import { StoriesWrapper } from "../../containers/StoriesWrapper/StoriesWrapper";
 import { FancyLink } from "./FancyLink";
 
+import type { ComponentStory, ComponentMeta } from "@storybook/react";
 import { FiArrowLeft } from "react-icons/fi";
 
 const MOCK_HREF_ARG = "https://github.com/smalandrey67";
